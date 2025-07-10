@@ -1,6 +1,6 @@
 
 name: Stage the app
-
+# Triggered when a pull request is labeled
 on:
   pull_request:
     types: [labeled]
